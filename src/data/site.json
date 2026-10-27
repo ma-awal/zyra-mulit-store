@@ -4,8 +4,8 @@
   "description": "Zyra is a modern accessories store: jewelry, bags, sunglasses, watches, hats and scarves that complete your look with elegance and confidence.",
   "currency": "$",
   "logo": {
-    "icon": "/images/logo-icon.png",
-    "iconFooter": "/images/logo-icon-footer.png"
+    "icon": "/images/logo.png",
+    "iconFooter": "/images/logo.png"
   },
   "nav": [
     { "label": "Home", "href": "/" },
@@ -32,9 +32,7 @@
     "fee": 5.99,
     "estimate": "3 - 5 Business Days"
   },
-  "promoCodes": [
-    { "code": "ZYRA30", "percent": 30 }
-  ],
+  "promoCodes": [{ "code": "ZYRA30", "percent": 30 }],
   "contact": {
     "email": "hello@zyra.store",
     "phone": "+1 (555) 013-2468",
@@ -42,10 +40,18 @@
     "hours": "Mon - Sat, 9:00 AM - 6:00 PM"
   },
   "social": [
-    { "name": "Instagram", "icon": "instagram", "href": "https://instagram.com" },
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "href": "https://instagram.com"
+    },
     { "name": "Facebook", "icon": "facebook", "href": "https://facebook.com" },
     { "name": "TikTok", "icon": "tiktok", "href": "https://tiktok.com" },
-    { "name": "Pinterest", "icon": "pinterest", "href": "https://pinterest.com" },
+    {
+      "name": "Pinterest",
+      "icon": "pinterest",
+      "href": "https://pinterest.com"
+    },
     { "name": "YouTube", "icon": "youtube", "href": "https://youtube.com" }
   ],
   "newsletter": {
