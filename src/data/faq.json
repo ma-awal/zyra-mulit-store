@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Help Center",
+  "title": "Frequently Asked Questions",
+  "text": "Can't find what you're looking for? Our support team is always happy to help.",
+  "items": [
+    {
+      "question": "How long does delivery take?",
+      "answer": "Orders are usually delivered within 2-5 business days inside the country. You will get a tracking link by email as soon as your order ships."
+    },
+    {
+      "question": "Is shipping really free?",
+      "answer": "Yes. All orders over $50 qualify for free shipping. For orders below $50, a small flat shipping fee is added at checkout."
+    },
+    {
+      "question": "What is your return policy?",
+      "answer": "You can return any unused item in its original packaging within 30 days of delivery for a full refund or an exchange."
+    },
+    {
+      "question": "Are your products authentic and good quality?",
+      "answer": "Every accessory is quality-checked before it leaves our store. If an item arrives damaged or not as described, we will replace it at no extra cost."
+    },
+    {
+      "question": "Which payment methods do you accept?",
+      "answer": "We accept major credit and debit cards, mobile wallets and cash on delivery. All online payments are encrypted and 100% secure."
+    }
+  ]
+}

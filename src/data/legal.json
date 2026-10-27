@@ -1,0 +1,22 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "1 January 2026",
+    "sections": [
+      { "heading": "Information we collect", "body": "When you place an order, subscribe or contact us, we collect the details you give us, such as your name, email, phone number and shipping address. We never store your card details." },
+      { "heading": "How we use it", "body": "We use your information to process and deliver orders, send order updates, answer questions and, if you subscribe, send news and offers. You can unsubscribe at any time. We do not sell your personal data." },
+      { "heading": "Local storage", "body": "Your cart, wishlist and latest order are saved in your browser so they are still there when you return. You can clear this data from your browser settings at any time." },
+      { "heading": "Contact", "body": "Questions about this policy? Email hello@zyra.store." }
+    ]
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "updated": "1 January 2026",
+    "sections": [
+      { "id": "orders", "heading": "Orders", "body": "Placing an order is an offer to buy. We confirm it by email. Prices are shown in US dollars and may change without notice." },
+      { "id": "shipping", "heading": "Shipping", "body": "Orders over $50 ship free. Standard delivery takes 3 to 5 business days after your order is processed." },
+      { "id": "returns", "heading": "Returns & Refunds", "body": "You can return unused items in their original packaging within 30 days of delivery for a full refund. Contact support to start a return." },
+      { "id": "payments", "heading": "Payments", "body": "We accept cards, PayPal, Apple Pay and Cash on Delivery. Cash on Delivery is paid to the courier when your order arrives." }
+    ]
+  }
+}

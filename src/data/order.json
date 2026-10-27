@@ -1,0 +1,24 @@
+{
+  "help": [
+    {
+      "icon": "support",
+      "title": "Need Help?",
+      "text": "Contact Support",
+      "href": "/contact"
+    },
+    {
+      "icon": "refresh",
+      "title": "Return Policy",
+      "text": "Learn more",
+      "href": "/terms#returns"
+    },
+    {
+      "icon": "star",
+      "title": "Share Your Experience",
+      "text": "Rate your order",
+      "action": "rate"
+    }
+  ],
+  "thanksImage": "/images/thanks-card.webp",
+  "thanksAlt": "Thank you for shopping with us"
+}

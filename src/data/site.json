@@ -1,0 +1,61 @@
+{
+  "name": "Zyra",
+  "tagline": "More than accessories. It's a lifestyle.",
+  "description": "Zyra is a modern accessories store: jewelry, bags, sunglasses, watches, hats and scarves that complete your look with elegance and confidence.",
+  "currency": "$",
+  "logo": {
+    "icon": "/images/logo-icon.png",
+    "iconFooter": "/images/logo-icon-footer.png"
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "Shop", "href": "/shop" },
+    { "label": "Categories", "href": "/shop", "dropdown": "categories" },
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "tabBar": [
+    { "label": "Home", "href": "/", "icon": "home" },
+    { "label": "Shop", "href": "/shop", "icon": "bag" },
+    { "label": "Wishlist", "href": "/wishlist", "icon": "heart" },
+    { "label": "Cart", "href": "/cart", "icon": "cart" },
+    { "label": "Orders", "href": "/order", "icon": "package" }
+  ],
+  "quickLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "Shop", "href": "/shop" },
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "shipping": {
+    "freeOver": 50,
+    "fee": 5.99,
+    "estimate": "3 - 5 Business Days"
+  },
+  "promoCodes": [
+    { "code": "ZYRA30", "percent": 30 }
+  ],
+  "contact": {
+    "email": "hello@zyra.store",
+    "phone": "+1 (555) 013-2468",
+    "address": "12 Rue des Fleurs, Algiers",
+    "hours": "Mon - Sat, 9:00 AM - 6:00 PM"
+  },
+  "social": [
+    { "name": "Instagram", "icon": "instagram", "href": "https://instagram.com" },
+    { "name": "Facebook", "icon": "facebook", "href": "https://facebook.com" },
+    { "name": "TikTok", "icon": "tiktok", "href": "https://tiktok.com" },
+    { "name": "Pinterest", "icon": "pinterest", "href": "https://pinterest.com" },
+    { "name": "YouTube", "icon": "youtube", "href": "https://youtube.com" }
+  ],
+  "newsletter": {
+    "title": "Subscribe to our newsletter",
+    "text": "Get the latest updates, new arrivals and exclusive offers.",
+    "placeholder": "Your email address",
+    "success": "Thank you for subscribing. Check your inbox soon."
+  },
+  "legalLinks": [
+    { "label": "Privacy Policy", "href": "/privacy" },
+    { "label": "Terms & Conditions", "href": "/terms" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "About Zyra",
+  "subtitle": "More than accessories. It's a lifestyle.",
+  "story": [
+    "Zyra started with a simple belief: the smallest details change how an outfit feels. A pair of hoops, a clean watch, a silk scarf. Little pieces, big confidence.",
+    "We choose every piece for its finish, comfort and how easily it pairs with what you already own. Warm golds, honest materials and timeless shapes.",
+    "Whether you are treating yourself or finding a gift, we want unboxing a Zyra order to feel special."
+  ],
+  "image": "/images/banner-trendy.jpg",
+  "imageAlt": "Yellow handbag, gold watch and sunglasses",
+  "valuesTitle": "What we care about",
+  "values": [
+    { "icon": "sparkle", "title": "Thoughtful Design", "text": "Timeless shapes that never feel out of season." },
+    { "icon": "shield", "title": "Quality You Can Feel", "text": "Materials and finishes checked before they ship." },
+    { "icon": "truck", "title": "Fast, Free Delivery", "text": "Free shipping on orders over $50." },
+    { "icon": "support", "title": "Real Support", "text": "A friendly team ready to help, any day." }
+  ],
+  "cta": { "title": "Find your next favourite detail", "label": "Shop Now", "href": "/shop" }
+}

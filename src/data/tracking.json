@@ -1,0 +1,12 @@
+{
+  "timeScale": 1,
+  "stages": [
+    { "id": "placed", "label": "Order Placed", "offsetHours": 0, "message": "We have received your order." },
+    { "id": "processing", "label": "Processing", "offsetHours": 4, "message": "We are preparing your package." },
+    { "id": "shipped", "label": "Shipped", "offsetHours": 22, "message": "Your package is on the way!" },
+    { "id": "out", "label": "Out for Delivery", "offsetHours": 47, "message": "Your package is out for delivery!" },
+    { "id": "delivered", "label": "Delivered", "offsetHours": 74.5, "message": "Your package has been delivered." }
+  ],
+  "mapImage": "/images/track-map.jpg",
+  "mapAlt": "Map showing the delivery route to your address"
+}

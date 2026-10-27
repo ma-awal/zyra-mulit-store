@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-cream-50 font-sans text-espresso antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    font-weight: 400;
+    letter-spacing: -0.012em;
+  }
+
+  [id] {
+    scroll-margin-top: 110px;
+  }
+
+  ::selection {
+    background: #f2b01e;
+    color: #1d1710;
+  }
+
+  :focus-visible {
+    outline: 2px solid #c98a0b;
+    outline-offset: 3px;
+  }
+
+  /* Prevents iOS zoom on input focus: inputs stay 16px on small screens */
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+  @media (min-width: 640px) {
+    input,
+    select,
+    textarea {
+      font-size: 15px;
+    }
+  }
+}
+
+@layer utilities {
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+}
+
+/* ---------- Scroll reveal (components/ui/Reveal.jsx) ---------- */
+.reveal {
+  opacity: 0;
+  transition:
+    opacity 1s cubic-bezier(0.16, 1, 0.3, 1) var(--reveal-delay, 0ms),
+    transform 1s cubic-bezier(0.16, 1, 0.3, 1) var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal-up {
+  transform: translateY(44px);
+}
+.reveal-down {
+  transform: translateY(-30px);
+}
+.reveal-left {
+  transform: translateX(-56px);
+}
+.reveal-right {
+  transform: translateX(56px);
+}
+.reveal-zoom {
+  transform: scale(0.94);
+}
+.reveal-fade {
+  transform: none;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- Image edge fades (hero and banners blend into their background) ---------- */
+.fade-top {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 24%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 24%);
+}
+@media (min-width: 1024px) {
+  .fade-left-lg {
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 30%);
+    mask-image: linear-gradient(to right, transparent 0%, #000 30%);
+  }
+}
+@media (min-width: 640px) {
+  .fade-left-sm {
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 22%);
+    mask-image: linear-gradient(to right, transparent 0%, #000 22%);
+  }
+}
+@media (max-width: 639px) {
+  .fade-left-sm {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 22%);
+    mask-image: linear-gradient(to bottom, transparent 0%, #000 22%);
+  }
+}
+
+/* ---------- Respect reduced-motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .animate-fade-up,
+  .animate-hero-img,
+  .animate-page-in,
+  .animate-float,
+  .animate-pop,
+  .animate-toast-in,
+  .animate-fade-in,
+  .animate-sheet-in,
+  .animate-draw {
+    animation: none !important;
+  }
+}
+
+/* Hero image: fades into the cream card (top on phones, left on desktop) */
+.hero-fade {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
+}
+@media (min-width: 1024px) {
+  .hero-fade {
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 32%);
+    mask-image: linear-gradient(to right, transparent 0%, #000 32%);
+  }
+}

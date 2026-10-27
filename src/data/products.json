@@ -1,0 +1,160 @@
+{
+  "categories": [
+    { "id": "jewelry", "name": "Jewelry", "image": "/images/cat-jewelry.jpg" },
+    { "id": "bags", "name": "Bags", "image": "/images/cat-bags.jpg" },
+    {
+      "id": "sunglasses",
+      "name": "Sunglasses",
+      "image": "/images/cat-sunglasses.jpg"
+    },
+    { "id": "watches", "name": "Watches", "image": "/images/cat-watches.jpg" },
+    { "id": "hats", "name": "Hats", "image": "/images/cat-hats.jpg" },
+    { "id": "scarves", "name": "Scarves", "image": "/images/cat-scarves.jpg" }
+  ],
+  "products": [
+    {
+      "id": "gold-eternity-ring",
+      "slug": "gold-eternity-ring",
+      "name": "Gold Eternity Ring",
+      "price": 24.99,
+      "category": "jewelry",
+      "image": "/images/product-ring.jpg",
+      "rating": 4.5,
+      "reviews": 124,
+      "bestSeller": true,
+      "colors": [
+        { "name": "Gold", "hex": "#F2B01E" },
+        { "name": "Silver", "hex": "#C9CCD1" },
+        { "name": "Rose Gold", "hex": "#E0A98F" }
+      ],
+      "defaultColor": "Gold",
+      "description": "A slim gold band set with sparkling stones all the way around. Delicate enough for every day, bright enough for any occasion.",
+      "details": [
+        "Gold-tone band",
+        "Sparkling stone setting",
+        "Lightweight, all-day comfort",
+        "Comes in a gift box"
+      ]
+    },
+    {
+      "id": "round-classic-sunglasses",
+      "slug": "round-classic-sunglasses",
+      "name": "Round Classic Sunglasses",
+      "price": 34.99,
+      "category": "sunglasses",
+      "image": "/images/product-sunglasses.jpg",
+      "rating": 4.5,
+      "reviews": 98,
+      "bestSeller": true,
+      "colors": [
+        { "name": "Black", "hex": "#1D1710" },
+        { "name": "Tortoise", "hex": "#7A4A25" },
+        { "name": "Gold", "hex": "#F2B01E" }
+      ],
+      "defaultColor": "Black",
+      "description": "Timeless round frames with dark green lenses. Sharp, simple and made to go with everything.",
+      "details": [
+        "UV400 protection",
+        "Glossy black round frame",
+        "Scratch-resistant lenses",
+        "Includes soft case"
+      ]
+    },
+    {
+      "id": "leather-handbag",
+      "slug": "leather-handbag",
+      "name": "Leather Handbag",
+      "price": 79.99,
+      "category": "bags",
+      "image": "/images/product-handbag.jpg",
+      "rating": 4.5,
+      "reviews": 76,
+      "bestSeller": true,
+      "colors": [
+        { "name": "Black", "hex": "#1D1710" },
+        { "name": "Beige", "hex": "#D9B98C" },
+        { "name": "Brown", "hex": "#8A5A33" }
+      ],
+      "defaultColor": "Beige",
+      "description": "A structured top-handle bag in soft beige with gold-tone hardware. Roomy enough for daily essentials, elegant enough for any occasion.",
+      "details": [
+        "Smooth grain leather finish",
+        "Rolled top handles",
+        "Spacious interior",
+        "Gold-tone hardware"
+      ]
+    },
+    {
+      "id": "chronograph-leather-watch",
+      "slug": "chronograph-leather-watch",
+      "name": "Chronograph Leather Watch",
+      "price": 59.99,
+      "category": "watches",
+      "image": "/images/product-watch.jpg",
+      "rating": 4.5,
+      "reviews": 112,
+      "bestSeller": true,
+      "colors": [
+        { "name": "Brown", "hex": "#5A2A1C" },
+        { "name": "Black", "hex": "#1D1710" },
+        { "name": "Tan", "hex": "#C9A27A" }
+      ],
+      "defaultColor": "Brown",
+      "description": "A cream chronograph dial with a date window on a croc-embossed leather strap. Classic, refined and always on time.",
+      "details": [
+        "Quartz movement",
+        "Croc-embossed leather strap",
+        "Date window",
+        "Mineral crystal glass"
+      ]
+    },
+    {
+      "id": "cream-silk-scarf",
+      "slug": "cream-silk-scarf",
+      "name": "Cream Silk Scarf",
+      "price": 19.99,
+      "category": "scarves",
+      "image": "/images/product-scarf.jpg",
+      "rating": 4.5,
+      "reviews": 62,
+      "bestSeller": true,
+      "colors": [
+        { "name": "Cream", "hex": "#F3E6CF" },
+        { "name": "Brown", "hex": "#5A2A1C" },
+        { "name": "Sand", "hex": "#D9C3A0" }
+      ],
+      "defaultColor": "Cream",
+      "description": "A silky satin scarf with a chain-print border. Wear it at the neck, in your hair or tied to a bag.",
+      "details": [
+        "Silky satin feel",
+        "Chain-print border",
+        "Square 70 x 70 cm",
+        "Hand-rolled edges"
+      ]
+    },
+    {
+      "id": "felt-fedora-hat",
+      "slug": "felt-fedora-hat",
+      "name": "Felt Fedora Hat",
+      "price": 44.99,
+      "category": "hats",
+      "image": "/images/product-hat.jpg",
+      "rating": 4.5,
+      "reviews": 54,
+      "bestSeller": false,
+      "colors": [
+        { "name": "Brown", "hex": "#7A5230" },
+        { "name": "Black", "hex": "#1D1710" },
+        { "name": "Sand", "hex": "#D9C3A0" }
+      ],
+      "defaultColor": "Brown",
+      "description": "A wide-brim felt fedora with a leather band and gold-tone buckle. An easy way to finish any outfit.",
+      "details": [
+        "Soft felt finish",
+        "Leather band with gold-tone buckle",
+        "Wide brim",
+        "Structured crown"
+      ]
+    }
+  ]
+}

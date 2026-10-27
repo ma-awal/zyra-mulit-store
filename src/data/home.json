@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "eyebrow": "Luxury Accessories",
+    "titleLines": ["Small Details", "Big Style"],
+    "description": "Discover unique accessories that complete your look with elegance and confidence.",
+    "cta": { "label": "Shop Now", "href": "/shop" },
+    "image": "/images/hero-zero.webp",
+    "imageAlt": "Woman in a yellow blazer wearing sunglasses, gold hoop earrings, layered necklaces and a gold watch"
+  },
+  "categoriesSection": {
+    "linkLabel": "Shop Now"
+  },
+  "seasonBanner": {
+    "eyebrow": "New Season",
+    "eyebrowStyle": "caps",
+    "titleLines": ["Trendy", "Accessories"],
+    "text": "Fresh styles for every moment.",
+    "cta": { "label": "Explore Collection", "href": "/shop" },
+    "image": "/images/banner-trendy.jpg",
+    "imageAlt": "Yellow handbag, gold watch, sunglasses and a plant on a yellow display",
+    "background": "linear-gradient(105deg, #FFEBA6 0%, #FFDF82 50%, #FFDC78 100%)"
+  },
+  "bestSellers": {
+    "title": "Best Sellers",
+    "linkLabel": "View All",
+    "linkHref": "/shop"
+  },
+  "offerBanner": {
+    "eyebrow": "Exclusive Offer",
+    "eyebrowStyle": "plain",
+    "titleLines": ["Get 30% Off"],
+    "text": "On Selected Accessories",
+    "cta": { "label": "Shop Now", "href": "/shop" },
+    "image": "/images/banner-t.webp",
+    "imageAlt": "Sunglasses, a watch, a leather wallet and a silk scarf on a yellow background",
+    "background": "linear-gradient(105deg, #FEDC70 0%, #FDD459 55%, #FDD053 100%)"
+  },
+  "features": [
+    { "icon": "truck", "title": "Free Shipping", "text": "On orders over $50" },
+    {
+      "icon": "shield",
+      "title": "Secure Payment",
+      "text": "100% secure checkout"
+    },
+    {
+      "icon": "refresh",
+      "title": "Easy Returns",
+      "text": "30-day return policy"
+    },
+    { "icon": "support", "title": "24/7 Support", "text": "We're here to help" }
+  ]
+}

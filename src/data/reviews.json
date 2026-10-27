@@ -1,0 +1,29 @@
+{
+  "eyebrow": "Testimonials",
+  "title": "Loved by Our Customers",
+  "rating": 4.8,
+  "count": "2,400+",
+  "items": [
+    {
+      "name": "Sarah Ahmed",
+      "role": "Verified Buyer",
+      "rating": 5,
+      "product": "Leather Handbag",
+      "text": "The handbag looks even better in person. The colour is rich, the stitching is neat and it arrived beautifully packed."
+    },
+    {
+      "name": "Nusrat Jahan",
+      "role": "Verified Buyer",
+      "rating": 5,
+      "product": "Minimal Watch",
+      "text": "I wear this watch every day and get compliments all the time. Delivery was fast and support answered all my questions."
+    },
+    {
+      "name": "Maria Khan",
+      "role": "Verified Buyer",
+      "rating": 4,
+      "product": "Silk Scarf",
+      "text": "Soft, lightweight and the print is gorgeous. It matches almost every outfit I own. Will definitely order again."
+    }
+  ]
+}
